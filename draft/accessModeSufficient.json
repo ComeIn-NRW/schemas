@@ -1,11 +1,11 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/accessMode.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/accessModeSufficient.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Welcher Zugriffsmodus ist hinreichende Voraussetzung, um mit der Ressource arbeiten zu können?",
   "type": "string",
   "enum": [
-    "Auditive Wahrnehmung",
-    "Taktile Wahrnehmung",
-    "Visuelle Wahrnehmung"
+    "auditory",
+    "tactile",
+    "visual"
   ]
 }

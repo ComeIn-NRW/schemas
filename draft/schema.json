@@ -6,7 +6,7 @@
   "type": "object",
   "default": {
     "@context": [
-      "https://comein-nrw.github.io/schemas/draft/context.jsonld",
+      "https://comein-nrw.github.io/schemas/context.jsonld",
       {
         "@language": "de"
       }
@@ -19,35 +19,47 @@
     "@context": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/context-schema.json"
     },
-    "name": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/name.json"
-    },
     "id": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/id.json"
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/id.json"
     },
-    "publisher": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/publisher.json"
+	"type": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/type.json"
     },
-    "author": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/author.json"
+	"name": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/name.json"
+    },
+	"creator": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/creator.json"
+    },
+	"contributor": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/contributor.json"
+    },
+    "maintainer": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/maintainer.json"
+    },
+	"publisher": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/publisher.json"
     },
     "learningResourceType": {
       "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/learningResourceType.json"
     },
-    "targetGroup": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/targetGroup.json"
+    "audience": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/audience.json"
     },
     "description": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/description.json"
     },
-    "educationalContext": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/educationalContext.json"
+	"keywords": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/keywords.json"
     },
-    "lehramtstypen": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/lehramtstypen.json"
+    "educationalLevel": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/educationalLevel.json"
+    },
+    "targetContext": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/targetContext.json"
     },
     "about": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/about.json"
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/about.json"
     },
     "interactivityType": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/interactivityType.json"
@@ -55,20 +67,14 @@
     "learningRequirements":{
       "$ref": "https://comein-nrw.github.io/schemas/draft/learningRequirements.json"
     },
-    "link": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/link.json"
+    "competencies": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/competencies.json"
     },
-    "competenceGoals": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/competenceGoals.json"
-    },
-    "reviewUsage": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/reviewUsage.json"
+    "review": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/review.json"
     },
     "usageInfo": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/usageInfo.json"
-    },
-    "evaluationResults": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/evaluationResults.json"
     },
     "originsDeclared": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/originsDeclared.json"
@@ -77,13 +83,13 @@
       "$ref": "https://comein-nrw.github.io/schemas/draft/resourceCorrect.json"
     },
     "license": {
-      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/license.json"
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/license.json"
     },
     "accessibility": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/accessibility.json"
     },
-    "accessMode": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/accessMode.json"
+    "accessModeSufficient": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/accessModeSufficient.json"
     },
     "usageRequirements": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/usageRequirements.json"

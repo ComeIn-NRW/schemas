@@ -1,0 +1,36 @@
+{
+    "$id": "https://comein-nrw.github.io/schemas/draft/competencies.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Angaben zu Kompetenzen",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "teaches": {
+          "$ref": "https://comein-nrw.github.io/schemas/draft/teaches.json"
+        },
+		"teachesHow": {
+			"title": "Wie bzw. inwiefern trägt die Ressource zur Förderung und/oder Testung der ausgewählten Kompetenzen bei?",
+			"type": "string"
+		},
+        "assesses": {
+          "$ref": "https://comein-nrw.github.io/schemas/draft/assesses.json"
+        },
+		"assessesHow": {
+			"title": "Wie bzw. inwiefern trägt die Ressource zur Förderung und/oder Testung der ausgewählten Kompetenzen bei?",
+			"type": "string"
+		},
+        "competencyRequired": {
+            "$ref": "https://comein-nrw.github.io/schemas/draft/competencyRequired.json"
+        }
+		"othergoals": {
+			"title": "Für welche weiteren Kompetenzen ist die Ressource geeignet?",
+			"type": "string"
+		},
+		"othergoalsHow": {
+			"title": "Wie bzw. inwiefern trägt die Ressource zur Förderung und/oder Testung der angegebenen weiteren Kompetenzen bei?",
+			"type": "string"
+		}
+      }    
+    }
+  }

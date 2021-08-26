@@ -1,6 +1,7 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/description.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Welche personenbezogenen Daten werden bei der Nutzung der Ressource verarbeitet?",
-  "type": "string"
+  "title": "Welche personenbezogenen Daten werden bei der Nutzung der Ressource verarbeitet? (Angabe der URI zur Datenschutzerklärung)",
+  "type": "string",
+  "format": "uri"
 }

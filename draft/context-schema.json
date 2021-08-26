@@ -10,7 +10,7 @@
       "type": "string",
       "format": "uri",
       "enum": [
-        "https://comein-nrw.github.io/schemas/draft/context.jsonld"
+        "https://comein-nrw.github.io/schemas/context.jsonld"
       ]
     },
     {
