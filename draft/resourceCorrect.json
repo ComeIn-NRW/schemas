@@ -1,0 +1,14 @@
+{
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/resourceCorrect.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Die Inhalte sind aktuell, korrekt und relevant",
+  "type": "string",
+  "enum": [
+    "trifft voll und ganz zu",
+    "trifft eher zu",
+    "trifft mittelmäßig zu",
+    "trifft eher nicht zu",
+    "trifft überhaupt nicht zu",
+    "Bewertung nicht möglich"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/competenceGoals.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Förderung/Testung fachspezifischer Kompetenzziele",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "whichGoals": {
+        "title": "Für die Förderung und/oder Testung welcher fachspezifischer Kompetenzziele ist die Ressource geeignet?",
+        "type": "string"
+      },
+      "howPromotion": {
+        "title": "Wie bzw. inwiefern trägt die Ressource zur Förderung und/oder Testung der angegebenen fachspezifischen Kompetenzziele bei?",
+        "type": "string"
+      }
+    }
+  }
+}

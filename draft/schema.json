@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/schema.json",
+  "$title": "ComeIn",
+  "description": "JSON schema for ComeIn",
+  "type": "object",
+  "default": {
+    "@context": [
+      "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/context.jsonld",
+      {
+        "@language": "de"
+      }
+    ],
+    "type": [
+      "LearningResource"
+    ]
+  },
+  "properties": {
+    "@context": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/context-schema.json"
+    },
+    "name": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/name.json"
+    },
+    "id": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/id.json"
+    },
+    "publisher": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/publisher.json"
+    },
+    "author": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/author.json"
+    },
+    "learningResourceType": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/learningResourceType.json"
+    },
+    "targetGroup": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/targetGroup.json"
+    },
+    "description": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/description.json"
+    },
+    "educationalContext": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/educationalContext.json"
+    },
+    "lehramtstypen": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/lehramtstypen.json"
+    },
+    "about": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/about.json"
+    },
+    "interactivityType": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/interactivityType.json"
+    },
+    "learningRequirements":{
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/learningRequirements.json"
+    },
+    "link": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/link.json"
+    },
+    "competenceGoals": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/competenceGoals.json"
+    },
+    "reviewUsage": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/reviewUsage.json"
+    },
+    "usageInfo": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/usageInfo.json"
+    },
+    "evaluationResults": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/evaluationResults.json"
+    },
+    "originsDeclared": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/originsDeclared.json"
+    },
+    "resourceCorrect": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/resourceCorrect.json"
+    },
+    "license": {
+      "$ref": "https://skohub-io.github.io/metadata-profiles/lrmi-profile/license.json"
+    },
+    "accessibility": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/accessibility.json"
+    },
+    "accessMode": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/accessMode.json"
+    },
+    "usageRequirements": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/usageRequirements.json"
+    },
+    "gdpr": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/gdpr.json"
+    },
+    "personalDataUsage": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/personalDataUsage.json"
+    },
+    "references": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/references.json"
+    }
+  },
+  "required": [
+    "@context",
+    "type",
+    "name",
+    "author",
+    "publisher",
+    "learningResourceType",
+    "targetGroup",
+    "description",
+    "educationalContext",
+    "orientierungsrahmenNRW",
+    "resourceCorrect",
+    "license"
+  ]
+}

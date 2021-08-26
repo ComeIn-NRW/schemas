@@ -1,0 +1,7 @@
+{
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/id.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "URL",
+  "type": "string",
+  "format": "uri"
+}

@@ -1,0 +1,6 @@
+{
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/usageRequirements.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Welche Hard- und/oder Softwarevoraussetzungen müssen für die Nutzung der Ressource erfüllt sein?",
+  "type": "string"
+}

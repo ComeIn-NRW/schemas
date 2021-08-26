@@ -1,0 +1,6 @@
+{
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/usageInfo.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Gibt es Grenzen des Einsatzes? Worauf sollte bei der Nutzung der Ressource geachtet werden?",
+  "type": "string"
+}

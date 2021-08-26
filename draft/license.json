@@ -1,0 +1,33 @@
+{
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/license.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Unter welchen Lizenzen steht die Ressource zur Verfügung?",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "license": {
+        "title": "Lizenz",
+        "type": "string",
+        "enum": [
+          "CC 0",
+          "CC BY",
+          "CC BY-SA",
+          "CC BY-ND",
+          "CC BY-NC",
+          "CC BY-NC-SA",
+          "CC BY-NC-ND",
+          "GNU GPL",
+          "Sonstige"
+        ]
+      },
+      "otherlicense": {
+        "title": "Falls Sonstige: Lizenztyp angeben",
+        "type": "string"
+      }
+    },
+    "required": [
+      "type"
+    ]
+  }
+}

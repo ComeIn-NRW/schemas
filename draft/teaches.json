@@ -1,0 +1,17 @@
+{
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/teaches.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Teaches",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Medienkompetenzrahmen": {
+        "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/medienkompetenzrahmenNRW.json"
+      },
+      "Orientierungsrahmen": {
+        "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/orientierungsrahmenNRW.json"
+      }
+    }    
+  }
+}

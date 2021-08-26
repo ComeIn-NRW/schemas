@@ -1,0 +1,29 @@
+{
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/accessibility.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Durch welche Maßnahmen ist es sichergestellt, dass Menschen mit Beeinträchtigungen die Ressource soweit wie möglich nutzen können?",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "actionAccessibility": {
+        "title": "Maßnahmentyp",
+        "type": "string",
+        "enum": [
+          "keine oder kaum störende Hintergrundgeräusche (auditive Sprache)",
+          "Textinhalte können in Größe verändert werden (zur Erhöhung der Lesbarkeit)",
+          "es stehen Formatalternativen für Inhalte (z.B. Bilder) zur Verfügung",
+          "Inhalte können ohne Struktur-/Informationsverlust im Design (z.B. Farben) angepasst werden",
+          "es stehen Untertitel zur Verfügung (audiovisuelle Inhalte)",
+          "es steht ein Transkript zur Verfügung (auditive Inhalte)",
+          "alle Funktionalitäten sind per Tastatur bedienbar",
+          "Sonstige"
+        ]
+      },
+      "otherAction": {
+        "title": "Falls Sonstige: Maßnahmentyp angeben",
+        "type": "string"
+      }
+    }
+  }
+}

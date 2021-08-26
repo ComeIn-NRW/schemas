@@ -1,0 +1,44 @@
+{
+    "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/educationalContext.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "In welchen Lehr-/Lernkontexten kann die Ressource verwendet werden?",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "type": {
+                "type": "string",
+                "enum": [
+                    "Concept"
+                ]
+            },
+            "id": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "(^https:\/\/w3id.org\/comein\/vocabs\/educationalContext-ComeIn\/.*)"
+            },
+            "inScheme": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "enum": [
+                            "http://w3id.org/comein/vocabs/educationalContext-ComeIn/"
+                        ]
+                    }
+                }
+            },
+            "prefLabel": {
+                "title": "The preferred label of the concept",
+                "description": "A localized string for prefLabel of a SKOS concept",
+                "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/LocalizedString.json"
+            }
+        },
+        "_widget": {
+            "type": "SkohubLookup",
+            "options": {
+                "url": "https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/educationalLevel-ComeIn/index.json"
+            }
+        }
+    }
+}
