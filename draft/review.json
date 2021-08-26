@@ -2,7 +2,7 @@
   "$id": "https://comein-nrw.github.io/schemas/draft/review.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Praxiserfahrungen",
-  "type": "array"
+  "type": "array",
   "items": {
     "type": "Review",
 	"properties": {
