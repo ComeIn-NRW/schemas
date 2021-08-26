@@ -1,5 +1,5 @@
 {
-  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/context-schema.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/context-schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "JSON-LD Context",
   "description": "The JSON-LD context for the structured resource descriptions",
@@ -10,14 +10,14 @@
       "type": "string",
       "format": "uri",
       "enum": [
-        "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/context.jsonld"
+        "https://comein-nrw.github.io/schemas/draft/context.jsonld"
       ]
     },
     {
       "type": "object",
       "properties": {
         "@language": {
-          "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/Language.json"
+          "$ref": "https://comein-nrw.github.io/schemas/draft/Language.json"
         }
       },
       "additionalProperties": false,

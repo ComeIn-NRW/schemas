@@ -1,5 +1,5 @@
 {
-  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/teaches.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/teaches.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Teaches",
   "type": "array",
@@ -7,10 +7,10 @@
     "type": "object",
     "properties": {
       "Medienkompetenzrahmen": {
-        "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/medienkompetenzrahmenNRW.json"
+        "$ref": "https://comein-nrw.github.io/schemas/draft/medienkompetenzrahmenNRW.json"
       },
       "Orientierungsrahmen": {
-        "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/orientierungsrahmenNRW.json"
+        "$ref": "https://comein-nrw.github.io/schemas/draft/orientierungsrahmenNRW.json"
       }
     }    
   }

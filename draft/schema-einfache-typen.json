@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/schema-einfache-typen.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/schema-einfache-typen.json",
   "title": "OER",
   "description": "JSON schema for ComeIn",
   "type": "object",
   "default": {
     "@context": [
-      "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/context.jsonld",
+      "https://comein-nrw.github.io/schemas/draft/context.jsonld",
       {
         "@language": "de"
       }
@@ -17,67 +17,67 @@
   },
   "properties": {
     "@context": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/context-schema.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/context-schema.json"
     },
     "name": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/name.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/name.json"
     },
     "id": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/id.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/id.json"
     },
     "publisher": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/publisher.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/publisher.json"
     },
     "author": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/author.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/author.json"
     },
     "description": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/description.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/description.json"
     },
     "interactivityType": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/interactivityType.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/interactivityType.json"
     },
     "learningRequirements":{
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/learningRequirements.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/learningRequirements.json"
     },
     "competenceGoals" : {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/competenceGoals.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/competenceGoals.json"
     },
     "reviewUsage": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/reviewUsage.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/reviewUsage.json"
     },
     "usageInfo": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/usageInfo.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/usageInfo.json"
     },
     "evaluationResults": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/evaluationResults.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/evaluationResults.json"
     },
     "originsDeclared": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/originsDeclared.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/originsDeclared.json"
     },
     "resourceCorrect": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/resourceCorrect.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/resourceCorrect.json"
     },
     "license": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/license.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/license.json"
     },
     "accessibility": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/accessibility.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/accessibility.json"
     },
     "accessMode": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/accessMode.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/accessMode.json"
     },
     "usageRequirements": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/usageRequirements.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/usageRequirements.json"
     },
     "gdpr": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/gdpr.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/gdpr.json"
     },
     "personalDataUsage": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/personalDataUsage.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/personalDataUsage.json"
     },
     "references": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/references.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/references.json"
     }
   }
 }

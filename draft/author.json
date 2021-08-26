@@ -1,5 +1,5 @@
 {
-  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/author.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/author.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Verantwortliche Person(en) und/oder Institution(en)",
   "type": "array",

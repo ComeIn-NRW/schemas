@@ -1,5 +1,5 @@
 {
-  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/reviewUsage.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/reviewUsage.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Welche Praxiserfahrungen liegen vor?",
   "type": "string"

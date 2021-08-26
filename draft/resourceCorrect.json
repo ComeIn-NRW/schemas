@@ -1,5 +1,5 @@
 {
-  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/resourceCorrect.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/resourceCorrect.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Die Inhalte sind aktuell, korrekt und relevant",
   "type": "string",

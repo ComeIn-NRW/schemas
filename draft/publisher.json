@@ -1,5 +1,5 @@
 {
-  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/publisher.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/publisher.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Ansprechpartner:innen für die Ressource",
   "type": "array",
