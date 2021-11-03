@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://comein-nrw.github.io/schemas/draft/schema-einfache-typen.json",
   "title": "OER",
   "description": "JSON schema for ComeIn",

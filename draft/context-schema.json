@@ -1,11 +1,11 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/context-schema.json",
-  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "JSON-LD Context",
   "description": "The JSON-LD context for the structured resource descriptions",
   "type": "array",
   "minItems": 2,
-  "items": [
+  "prefixItems": [
     {
       "type": "string",
       "format": "uri",
@@ -26,7 +26,7 @@
       ]
     }
   ],
-  "additionalItems": true,
+  "items": true,
   "_display": {
     "className": "hidden"
   }

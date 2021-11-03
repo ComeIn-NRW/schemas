@@ -1,6 +1,6 @@
 {
     "$id": "https://comein-nrw.github.io/schemas/draft/targetContext.json",
-    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Für welche Lehramtstypen ist der Einsatz der Ressource geeignet?",
     "type": "array",
     "items": {
