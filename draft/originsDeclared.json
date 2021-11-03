@@ -1,6 +1,6 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/originsDeclared.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
   "title": "Die Herkunft von Modellen, Methoden und Ansätzen wird in der Ressource klar benannt.",
   "type": "string",
   "enum": [

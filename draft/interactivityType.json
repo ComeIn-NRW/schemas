@@ -1,6 +1,6 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/interactivityType.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
   "title": "Welcher Lehr-/Lernform entspricht der Einsatz der Ressource am ehesten?",
   "type": "array",
   "items": {
