@@ -4,12 +4,12 @@
   "title": "Praxiserfahrungen",
   "type": "array",
   "items": {
-    "type": "Review",
-	"properties": {
+    "type": "array",
+  	"properties": {
       "reviewAspect": {
-		  "enum": ["Welche Praxiserfahrungen liegen vor? ", "Welche Evaluationsergebnisse zur Ressource liegen in der Praxis vor?"]
-	  },
-	  "reviewBody": {
+        "enum": ["Welche Praxiserfahrungen liegen vor? ", "Welche Evaluationsergebnisse zur Ressource liegen in der Praxis vor?"]
+      },
+      "reviewBody": {
         "type": "string"
       },
     },
