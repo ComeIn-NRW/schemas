@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/schema-competencies.json",
   "$title": "ComeIn",
   "description": "JSON schema for ComeIn",
