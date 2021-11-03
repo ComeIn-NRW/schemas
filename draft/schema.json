@@ -1,7 +1,7 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
   "$id": "https://comein-nrw.github.io/schemas/draft/schema.json",
-  "$title": "ComeIn",
+  "title": "ComeIn",
   "description": "JSON schema for ComeIn",
   "type": "object",
   "default": {

@@ -1,6 +1,6 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/Language.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
   "title": "Language code",
   "description": "An enumeration of ISO 639-1.conformant two-digit language codes.",
   "type": "string",

@@ -1,6 +1,6 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/maintainer.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
   "title": "Ansprechpartner:innen für die Ressource",
   "type": "array",
   "items": {

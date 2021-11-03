@@ -1,6 +1,6 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/learningRequirements.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
   "title": "Welche (Lern-)Voraussetzungen sollten für die Nutzung der Ressource erfüllt sein?",
   "type": "string"
 }
