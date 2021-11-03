@@ -70,6 +70,9 @@
     "competencies": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/competencies.json"
     },
+    "review": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/review.json"
+    },
     "usageInfo": {
       "$ref": "https://comein-nrw.github.io/schemas/draft/usageInfo.json"
     },
