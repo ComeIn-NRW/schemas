@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://comein-nrw.github.io/schemas/draft/schema.json",
   "$title": "ComeIn",
   "description": "JSON schema for ComeIn",
@@ -22,86 +22,86 @@
     "id": {
       "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/id.json"
     },
-    "type": {
+	"type": {
       "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/type.json"
     },
-  	"name": {
-        "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/name.json"
+	"name": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/name.json"
     },
-  	"creator": {
-        "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/creator.json"
+	"creator": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/creator.json"
     },
-  	"contributor": {
-        "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/contributor.json"
+	"contributor": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/contributor.json"
     },
     "maintainer": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/maintainer.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/maintainer.json"
     },
-  	"publisher": {
-        "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/publisher.json"
+	"publisher": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/publisher.json"
     },
     "learningResourceType": {
-        "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/learningResourceType.json"
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/learningResourceType.json"
     },
     "audience": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/audience.json"
-      },
-    "description": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/description.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/audience.json"
     },
-  	"keywords": {
-        "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/keywords.json"
+    "description": {
+      "$ref": "https://comein-nrw.github.io/schemas/draft/description.json"
+    },
+	"keywords": {
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/keywords.json"
     },
     "educationalLevel": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/educationalLevel.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/educationalLevel.json"
     },
     "targetContext": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/targetContext.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/targetContext.json"
     },
     "about": {
-        "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/about.json"
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/about.json"
     },
     "interactivityType": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/interactivityType.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/interactivityType.json"
     },
     "learningRequirements":{
-        "$ref": "https://comein-nrw.github.io/schemas/draft/learningRequirements.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/learningRequirements.json"
     },
     "competencies": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/competencies.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/competencies.json"
     },
     "review": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/review.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/review.json"
     },
     "usageInfo": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/usageInfo.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/usageInfo.json"
     },
     "originsDeclared": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/originsDeclared.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/originsDeclared.json"
     },
     "resourceCorrect": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/resourceCorrect.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/resourceCorrect.json"
     },
     "license": {
-        "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/license.json"
+      "$ref": "https://dini-ag-kim.github.io/lrmi-profile/draft/schemas/license.json"
     },
     "accessibility": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/accessibility.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/accessibility.json"
     },
     "accessModeSufficient": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/accessModeSufficient.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/accessModeSufficient.json"
     },
     "usageRequirements": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/usageRequirements.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/usageRequirements.json"
     },
     "gdpr": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/gdpr.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/gdpr.json"
     },
     "personalDataUsage": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/personalDataUsage.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/personalDataUsage.json"
     },
     "references": {
-        "$ref": "https://comein-nrw.github.io/schemas/draft/references.json"
+      "$ref": "https://comein-nrw.github.io/schemas/draft/references.json"
     }
   },
   "required": [
