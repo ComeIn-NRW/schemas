@@ -1,6 +1,6 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/references.json",
-  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Welche Publikationen, Webseiten und/oder weitere Informationsmöglichkeiten gibt es zur Ressource?",
   "type": "array",
   "items": {
