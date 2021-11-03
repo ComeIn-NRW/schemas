@@ -1,0 +1,36 @@
+{
+    "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/competencies.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Angaben zu Kompetenzen",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "teaches": {
+          "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/teaches.json"
+        },
+				"teachesHow": {
+					"title": "Wie bzw. inwiefern trägt die Ressource zur Förderung der ausgewählten Kompetenzen bei?",
+					"type": "string"
+				},
+        "assesses": {
+          "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/assesses.json"
+        },
+				"assessesHow": {
+					"title": "Wie bzw. inwiefern trägt die Ressource zur Testung der ausgewählten Kompetenzen bei?",
+					"type": "string"
+				},
+		    "competencyRequired": {
+		    	"$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/competencyRequired.json"
+		    },
+				"othergoals": {
+					"title": "Für welche weiteren Kompetenzen ist die Ressource geeignet?",
+					"type": "string"
+				},
+				"othergoalsHow": {
+					"title": "Wie bzw. inwiefern trägt die Ressource zur Förderung und/oder Testung der angegebenen weiteren Kompetenzen bei?",
+					"type": "string"
+				}
+      }    
+    }
+}	

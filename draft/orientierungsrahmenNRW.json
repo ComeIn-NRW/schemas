@@ -1,7 +1,7 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/orientierungsrahmenNRW.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Medienkompetenzrahmen NRW",
+  "title": "Orientierungsrahmen NRW",
   "type": "array",
   "items": {
     "type": "object",

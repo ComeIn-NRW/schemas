@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/schema-competencies.json",
+  "$title": "ComeIn",
+  "description": "JSON schema for ComeIn",
+  "type": "object",
+  "default": {
+    "@context": [
+      "https://comein-nrw.github.io/schemas/context.jsonld",
+      {
+        "@language": "de"
+      }
+    ],
+    "type": [
+      "LearningResource"
+    ]
+  },
+  "properties": {
+    "@context": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/context-schema.json"
+    },
+    "teaches": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/teaches.json"
+    },
+    "assesses": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/assesses.json"
+    },
+    "competencyRequired": {
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/competencyRequired.json"
+    }
+  },
+  "required": [
+    "@context"
+  ]
+}
