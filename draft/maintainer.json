@@ -1,7 +1,7 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/maintainer.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Ansprechpartner:innen für die Ressource",
+  "title": "Ansprechpartner/-in der Lernressource; Mehrfachangaben über + möglich",
   "type": "array",
   "items": {
     "type": "object",
@@ -10,19 +10,30 @@
         "title": "Type",
         "type": "string",
         "enum": [
-          "Organization",
           "Person"
-        ]
+        ],
+        "default": "Person"
       },
       "id": {
-        "title": "URL",
-        "description": "The URL/URI of the maintainer, preferably from GND, Wikidata or RoR.",
+        "title": "ORCID",
         "type": "string",
-        "format": "uri"
+        "format": "uri",
+        "pattern": "https:\/\/orcid\\.org\/0000-000(1-[5-9]|2-[0-9]|3-[0-4])\\d{3}-\\d{3}[\\dX]"
       },
       "name": {
         "title": "Name",
         "type": "string"
+      },
+      "honoricPrefix": {
+        "title": "Akademischer Grad",
+        "type": "string",
+        "enum": [
+          "Dr.",
+          "Prof."
+        ]
+      },
+      "affiliation": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/affiliation.json"
       }
     },
     "required": [
