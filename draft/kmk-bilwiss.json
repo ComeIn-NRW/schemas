@@ -1,7 +1,7 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/kmk-bilwiss.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "KMK: Kompetenzen in der digitalen Welt",
+  "title": "KMK: Standards für die Lehrerbildung: Bildungswissenschaften (vom 16.12.2004 i.d.F. vom 16.05.2019)",
   "type": "array",
   "items": {
     "type": "object",
