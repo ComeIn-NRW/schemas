@@ -1,7 +1,7 @@
 {
   "$id": "https://comein-nrw.github.io/schemas/draft/ude-modell.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "UDE-Modell: Ein integratives Modell digitalisierungsbezogener Kompetenzen für die Lehramtsausbildung",
+  "title": "DaZKom: Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache",
   "type": "array",
   "items": {
     "type": "object",
