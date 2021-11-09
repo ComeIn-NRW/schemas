@@ -40,7 +40,7 @@
     "_widget": {
       "type": "SkohubLookup",
       "options": {
-        "url": "http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen.json"
+        "url": "http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/index.json"
       }
     }
   }
