@@ -7,11 +7,11 @@
       "type": "object",
       "properties": {
         "Medienkompetenzrahmen": {
-          "$ref": "https://comein-nrw.github.io/schemas/draft/medienkompetenzrahmenNRW.json"
+          "$ref": "https://comein-nrw.github.io/schemas/draft/nrw-medienkompetenzrahmen.json"
         },
         "Orientierungsrahmen": {
-          "$ref": "https://comein-nrw.github.io/schemas/draft/orientierungsrahmenNRW.json"
+          "$ref": "https://comein-nrw.github.io/schemas/draft/nrw-orientierungsrahmen.json"
         }
-      }    
+      }
     }
   }
