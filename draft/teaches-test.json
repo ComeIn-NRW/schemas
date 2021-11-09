@@ -1,0 +1,52 @@
+{
+  "$id": "https://comein-nrw.github.io/schemas/draft/teaches.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lernziele",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string",
+        "enum": [
+          "Concept"
+        ]
+      },
+      "id": {
+        "type": "string",
+        "format": "uri"
+      },
+      "inScheme": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW",
+              "http://w3id.org/comein/vocabs/orientierungsrahmenNRW",
+              "http://w3id.org/comein/vocabs/DigCompEdu",
+              "http://w3id.org/comein/vocabs/UDE-Modell",
+              "http://w3id.org/comein/vocabs/dazkom",
+              "http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/",
+              "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/"
+            ]
+          }
+        }
+      },
+      "prefLabel": {
+        "title": "The preferred label of the concept",
+        "description": "A localized string for prefLabel of a SKOS concept",
+        "$ref": "https://comein-nrw.github.io/schemas/draft/LocalizedString.json"
+      }
+    },
+    "required": [
+      "id"
+    ],
+    "_widget": {
+      "type": "SkohubLookup",
+      "options": {
+        "url": "https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/medienkompetenzrahmenNRW.json"
+      }
+    }
+  }
+}

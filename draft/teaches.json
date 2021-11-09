@@ -6,46 +6,26 @@
   "items": {
     "type": "object",
     "properties": {
-      "type": {
-        "type": "string",
-        "enum": [
-          "Concept"
-        ]
+      "DigCompEdu: Europäischer Rahmen für die Digitale Kompetenz Lehrender": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/digcompedu.json"
       },
-      "id": {
-        "type": "string",
-        "format": "uri"
+      "KMK: Kompetenzen in der digitalen Welt": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/kmk-digitalewelt.json"
       },
-      "inScheme": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "enum": [
-              "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW",
-              "http://w3id.org/comein/vocabs/orientierungsrahmenNRW",
-              "http://w3id.org/comein/vocabs/DigCompEdu",
-              "http://w3id.org/comein/vocabs/UDE-Modell",
-              "http://w3id.org/comein/vocabs/dazkom",
-              "http://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/",
-              "http://w3id.org/kim/kmk-vocabs/bildungswissenschaften/"
-            ]
-          }
-        }
+      "KMK: Standards für die Lehrerbildung: Bildungswissenschaften (vom 16.12.2004 i.d.F. vom 16.05.2019)": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/kmk-bilwiss.json"
       },
-      "prefLabel": {
-        "title": "The preferred label of the concept",
-        "description": "A localized string for prefLabel of a SKOS concept",
-        "$ref": "https://comein-nrw.github.io/schemas/draft/LocalizedString.json"
-      }
-    },
-    "required": [
-      "id"
-    ],
-    "_widget": {
-      "type": "SkohubLookup",
-      "options": {
-        "url": "https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/medienkompetenzrahmenNRW.json"
+      "Medienkompetenzrahmen NRW": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/nrw-medienkompetenzrahmen.json"
+      },
+      "Orientierungsrahmen NRW": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/nrw-orientierungsrahmen.json"
+      },
+      "UDE-Modell: Ein integratives Modell digitalisierungsbezogener Kompetenzen für die Lehramtsausbildung": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/ude-modell.json"
+      },
+      "DaZKom: Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/dazkom-modell.json"
       }
     }
   }

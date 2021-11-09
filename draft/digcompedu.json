@@ -1,7 +1,7 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/medienkompetenzrahmenNRW.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/digcompedu.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Medienkompetenzrahmen NRW",
+  "title": "DigCompEdu: Europäischer Rahmen für die Digitale Kompetenz Lehrender",
   "type": "array",
   "items": {
     "type": "object",
@@ -15,7 +15,7 @@
       "id": {
         "type": "string",
         "format": "uri",
-        "pattern": "^https:\/\/w3id.org\/comein\/vocabs\/medienkompetenzrahmenNRW\/.*"
+        "pattern": "^https:\/\/w3id.org\/comein\/vocabs\/DigCompEdu\/.*"
       },
       "inScheme": {
         "type": "object",
@@ -23,7 +23,7 @@
           "id": {
             "type": "string",
             "enum": [
-              "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW"
+              "http://w3id.org/comein/vocabs/DigCompEdu"
             ]
           }
         }
@@ -40,7 +40,7 @@
     "_widget": {
       "type": "SkohubLookup",
       "options": {
-        "url": "https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/medienkompetenzrahmenNRW.json"
+        "url": "http://w3id.org/comein/vocabs/DigCompEdu/index.json"
       }
     }
   }

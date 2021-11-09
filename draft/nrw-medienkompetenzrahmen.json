@@ -1,0 +1,47 @@
+{
+  "$id": "https://comein-nrw.github.io/schemas/draft/nrw-medienkompetenzrahmen.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Medienkompetenzrahmen NRW",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "type": {
+        "type": "string",
+        "enum": [
+          "Concept"
+        ]
+      },
+      "id": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https:\/\/w3id.org\/comein\/vocabs\/medienkompetenzrahmenNRW\/.*"
+      },
+      "inScheme": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": [
+              "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW"
+            ]
+          }
+        }
+      },
+      "prefLabel": {
+        "title": "The preferred label of the concept",
+        "description": "A localized string for prefLabel of a SKOS concept",
+        "$ref": "https://comein-nrw.github.io/schemas/draft/LocalizedString.json"
+      }
+    },
+    "required": [
+      "id"
+    ],
+    "_widget": {
+      "type": "SkohubLookup",
+      "options": {
+        "url": "http://w3id.org/comein/vocabs/medienkompetenzrahmenNRW.json"
+      }
+    }
+  }
+}

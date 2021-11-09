@@ -1,7 +1,7 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/orientierungsrahmenNRW.json",
+  "$id": "https://comein-nrw.github.io/schemas/draft/dazkomm-modell.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Orientierungsrahmen NRW",
+  "title": "UDE-Modell: Ein integratives Modell digitalisierungsbezogener Kompetenzen für die Lehramtsausbildung",
   "type": "array",
   "items": {
     "type": "object",
@@ -15,7 +15,7 @@
       "id": {
         "type": "string",
         "format": "uri",
-        "pattern": "^https:\/\/w3id.org\/comein\/vocabs\/orientierungsrahmenNRW\/.*"
+        "pattern": "^https:\/\/w3id.org\/comein\/vocabs\/dazkom\/.*"
       },
       "inScheme": {
         "type": "object",
@@ -23,7 +23,7 @@
           "id": {
             "type": "string",
             "enum": [
-              "http://w3id.org/comein/vocabs/orientierungsrahmenNRW"
+              "http://w3id.org/comein/vocabs/dazkom/"
             ]
           }
         }
@@ -40,7 +40,7 @@
     "_widget": {
       "type": "SkohubLookup",
       "options": {
-        "url": "https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/orientierungsrahmenNRW.json"
+        "url": "http://w3id.org/comein/vocabs/dazkom/index.json"
       }
     }
   }

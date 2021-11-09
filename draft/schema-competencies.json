@@ -17,16 +17,16 @@
   },
   "properties": {
     "@context": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/context-schema.json"
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/schemas/draft/context-schema.json"
     },
     "teaches": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/teaches.json"
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/schemas/draft/teaches.json"
     },
     "assesses": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/assesses.json"
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/schemas/draft/assesses.json"
     },
     "competencyRequired": {
-      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/patch/competencyRequired.json"
+      "$ref": "https://www.uni-muenster.de/Unterrichtsvideos/ComeIn/kernschema/schemas/draft/competencyRequired.json"
     }
   },
   "required": [
