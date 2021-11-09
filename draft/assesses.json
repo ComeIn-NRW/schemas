@@ -1,17 +1,32 @@
 {
-    "$id": "https://comein-nrw.github.io/schemas/draft/assesses.json",
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Lernzielkontrollen",
-    "type": "array",
-    "items": {
-      "type": "object",
-      "properties": {
-        "Medienkompetenzrahmen": {
-          "$ref": "https://comein-nrw.github.io/schemas/draft/nrw-medienkompetenzrahmen.json"
-        },
-        "Orientierungsrahmen": {
-          "$ref": "https://comein-nrw.github.io/schemas/draft/nrw-orientierungsrahmen.json"
-        }
+  "$id": "https://comein-nrw.github.io/schemas/draft/assesses.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lernzielkontrollen",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "DigCompEdu: Europäischer Rahmen für die Digitale Kompetenz Lehrender": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/digcompedu.json"
+      },
+      "KMK: Kompetenzen in der digitalen Welt": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/kmk-digitalewelt.json"
+      },
+      "KMK: Standards für die Lehrerbildung: Bildungswissenschaften (vom 16.12.2004 i.d.F. vom 16.05.2019)": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/kmk-bilwiss.json"
+      },
+      "Medienkompetenzrahmen NRW": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/nrw-medienkompetenzrahmen.json"
+      },
+      "Orientierungsrahmen NRW": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/nrw-orientierungsrahmen.json"
+      },
+      "UDE-Modell: Ein integratives Modell digitalisierungsbezogener Kompetenzen für die Lehramtsausbildung": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/ude-modell.json"
+      },
+      "DaZKom: Ein Modell professioneller Kompetenzen angehender Lehrkräfte im Bereich Deutsch als Zweitsprache": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/dazkom-modell.json"
       }
     }
   }
+}
