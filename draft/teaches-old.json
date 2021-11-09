@@ -1,0 +1,17 @@
+{
+  "$id": "https://comein-nrw.github.io/schemas/draft/teaches.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lernziele",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Medienkompetenzrahmen": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/medienkompetenzrahmenNRW.json"
+      },
+      "Orientierungsrahmen": {
+        "$ref": "https://comein-nrw.github.io/schemas/draft/orientierungsrahmenNRW.json"
+      }
+    }    
+  }
+}
