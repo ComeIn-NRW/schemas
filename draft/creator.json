@@ -1,5 +1,5 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/creator.json",
+  "$id": "https://w3id.org/comein/schemas/draft/creator.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Verantwortliche Person(en) und/oder Institution(en)",
   "type": "array",

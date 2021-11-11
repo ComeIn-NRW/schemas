@@ -1,5 +1,5 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/digcompedu.json",
+  "$id": "https://w3id.org/comein/schemas/draft/digcompedu.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "DigCompEdu: Europäischer Rahmen für die Digitale Kompetenz Lehrender",
   "type": "array",
@@ -31,7 +31,7 @@
       "prefLabel": {
         "title": "The preferred label of the concept",
         "description": "A localized string for prefLabel of a SKOS concept",
-        "$ref": "https://comein-nrw.github.io/schemas/draft/LocalizedString.json"
+        "$ref": "https://w3id.org/comein/schemas/draft/LocalizedString.json"
       }
     },
     "required": [

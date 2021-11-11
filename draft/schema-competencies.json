@@ -6,7 +6,7 @@
   "type": "object",
   "default": {
     "@context": [
-      "https://comein-nrw.github.io/schemas/context.jsonld",
+      "https://w3id.org/comein/schemas/context.jsonld",
       {
         "@language": "de"
       }

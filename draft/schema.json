@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://comein-nrw.github.io/schemas/draft/schema.json",
+  "$id": "https://w3id.org/comein/schemas/draft/schema.json",
   "title": "ComeIn",
   "description": "JSON schema for ComeIn",
   "type": "object",
   "default": {
     "@context": [
-      "https://comein-nrw.github.io/schemas/context.jsonld",
+      "https://w3id.org/comein/schemas/context.jsonld",
       {
         "@language": "de"
       }
@@ -17,7 +17,7 @@
   },
   "properties": {
     "@context": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/context-schema.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/context-schema.json"
     },
     "id": {
       "$ref": "https://w3id.org/kim/amb/draft/schemas/id.json"
@@ -35,7 +35,7 @@
       "$ref": "https://w3id.org/kim/amb/draft/schemas/contributor.json"
     },
     "maintainer": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/maintainer.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/maintainer.json"
     },
 	"publisher": {
       "$ref": "https://w3id.org/kim/amb/draft/schemas/publisher.json"
@@ -44,61 +44,61 @@
       "$ref": "https://w3id.org/kim/amb/draft/schemas/learningResourceType.json"
     },
     "audience": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/audience.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/audience.json"
     },
     "description": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/description.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/description.json"
     },
 	"keywords": {
       "$ref": "https://w3id.org/kim/amb/draft/schemas/keywords.json"
     },
     "educationalLevel": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/educationalLevel.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/educationalLevel.json"
     },
     "targetContext": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/targetContext.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/targetContext.json"
     },
     "about": {
       "$ref": "https://w3id.org/kim/amb/draft/schemas/about.json"
     },
     "interactivityType": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/interactivityType.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/interactivityType.json"
     },
     "learningRequirements":{
-      "$ref": "https://comein-nrw.github.io/schemas/draft/learningRequirements.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/learningRequirements.json"
     },
     "competencies": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/competencies.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/competencies.json"
     },
     "usageInfo": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/usageInfo.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/usageInfo.json"
     },
     "originsDeclared": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/originsDeclared.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/originsDeclared.json"
     },
     "resourceCorrect": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/resourceCorrect.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/resourceCorrect.json"
     },
     "license": {
       "$ref": "https://w3id.org/kim/amb/draft/schemas/license.json"
     },
     "accessibility": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/accessibility.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/accessibility.json"
     },
     "accessModeSufficient": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/accessModeSufficient.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/accessModeSufficient.json"
     },
     "usageRequirements": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/usageRequirements.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/usageRequirements.json"
     },
     "gdpr": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/gdpr.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/gdpr.json"
     },
     "personalDataUsage": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/personalDataUsage.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/personalDataUsage.json"
     },
     "references": {
-      "$ref": "https://comein-nrw.github.io/schemas/draft/references.json"
+      "$ref": "https://w3id.org/comein/schemas/draft/references.json"
     }
   },
   "required": [

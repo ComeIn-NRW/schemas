@@ -1,5 +1,5 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/teaches.json",
+  "$id": "https://w3id.org/comein/schemas/draft/teaches.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Lernziele",
   "type": "array",
@@ -36,7 +36,7 @@
       "prefLabel": {
         "title": "The preferred label of the concept",
         "description": "A localized string for prefLabel of a SKOS concept",
-        "$ref": "https://comein-nrw.github.io/schemas/draft/LocalizedString.json"
+        "$ref": "https://w3id.org/comein/schemas/draft/LocalizedString.json"
       }
     },
     "required": [
@@ -45,7 +45,7 @@
     "_widget": {
       "type": "SkohubLookup",
       "options": {
-        "url": "https://comein-nrw.github.io/vocabs/w3id.org/comein/vocabs/medienkompetenzrahmenNRW.json"
+        "url": "https://w3id.org/comein/vocabs/w3id.org/comein/vocabs/medienkompetenzrahmenNRW.json"
       }
     }
   }

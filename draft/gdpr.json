@@ -1,5 +1,5 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/gdpr.json",
+  "$id": "https://w3id.org/comein/schemas/draft/gdpr.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Die DSGVO-Konformität wird von der Ressource / vom Anbieter ausgewiesen",
   "type" : "boolean"

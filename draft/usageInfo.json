@@ -1,5 +1,5 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/usageInfo.json",
+  "$id": "https://w3id.org/comein/schemas/draft/usageInfo.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Gibt es Grenzen des Einsatzes? Worauf sollte bei der Nutzung der Ressource geachtet werden?",
   "type": "string"

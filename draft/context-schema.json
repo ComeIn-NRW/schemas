@@ -1,5 +1,5 @@
 {
-  "$id": "https://comein-nrw.github.io/schemas/draft/context-schema.json",
+  "$id": "https://w3id.org/comein/schemas/draft/context-schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "JSON-LD Context",
   "description": "The JSON-LD context for the structured resource descriptions",
@@ -10,14 +10,14 @@
       "type": "string",
       "format": "uri",
       "enum": [
-        "https://comein-nrw.github.io/schemas/context.jsonld"
+        "https://w3id.org/comein/schemas/context.jsonld"
       ]
     },
     {
       "type": "object",
       "properties": {
         "@language": {
-          "$ref": "https://comein-nrw.github.io/schemas/draft/Language.json"
+          "$ref": "https://w3id.org/comein/schemas/draft/Language.json"
         }
       },
       "additionalProperties": false,
